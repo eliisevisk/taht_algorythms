@@ -9,11 +9,13 @@
     </head>
         <body>
             <div class="fields">
-                <h2 class="h2 fields__heading">I will generate a word, you have the privilege of guessing it one letter at a time.</h2>
-                <h4 class="h4 fields__subheading">best of luck, you can fail thrice</h4>
-                <input class="fields__letter-input" type="text" maxlength="1">
+                <h2 class="h2 fields__heading fields__conversation">I will think of a number between 0 and 100, you have the privilege of guessing it.<br> I will give you hints after each failure</h2>
+                <h4 class="h4 fields__subheading fields__underbreath">best of luck, you can fail five times</h4>
+                <input class="fields__character-input" type="text">
                 <button class="fields__submit">Make a guess</button>
                 <div class="fields__lives">
+                    <span class="fields__life life--full"></span>
+                    <span class="fields__life life--full"></span>
                     <span class="fields__life life--full"></span>
                     <span class="fields__life life--full"></span>
                     <span class="fields__life life--full"></span>
