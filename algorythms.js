@@ -3,15 +3,7 @@
 $(document).ready(function(){
     // define starting lives
 
-    let life = 3;
-
-    // define the element holding our results (the word we're looking for and the blanks replacing unrevealed words)
-
-    const results = $('.fields__results');
-
-    // our array of words
-
-    const words = ['pineapple', 'inequity', 'breadsticks', 'juxtaposition', 'enervated']
+    let life = 5;
 
     // function to generate an integer between 0 and max-1
 
@@ -21,74 +13,75 @@ $(document).ready(function(){
 
     // get current word from our array of 5 words (which is why max = 5 in this fnc).
 
-    const currentWord = words[getRandomInt(5)];
+    const currentNumber = getRandomInt(101);
 
-    // for each letter in the word, we create a blank
+    // define function for narrator
 
-    for (i = 0; i < currentWord.length; i++) {
-        results.append('<span class="fields__results-letter" id="results-letter-' + i + '">_</span>')
+    function narrator(speech, subSpeech) {
+        const narrator = $('.fields__conversation');
+        const narratorSubtext = $('.fields__underbreath');
+        narrator.replaceWith('<h2 class="h2 fields__heading fields__conversation">' + speech + '</h2>');
+        narratorSubtext.replaceWith('<h4 class="h4 fields__subheading fields__underbreath">'+subSpeech+'</h4>');
     }
 
     // get button element and listen for click event. On click event we will check if letter exists in our current word. If not then lose life.
 
     const button = $('.fields__submit');
-    const input = $('.fields__letter-input');
+    const input = $('.fields__character-input');
 
     $(button).click();
 
     $(button).click(function() {
-        const guessLetter = input.val().toLowerCase();
-        const wordLength = currentWord.length;
-        const garbageLetters = [];
-        let hasLetter = false;
+        const guess = parseInt(input.val());
+        const garbageGuesses = [];
+        let hasGuessed = false;
         let fullLife = $('.life--full')
         input.val('');
 
-        // loop through letters of the word to find all matching letters
-        for (i = 0; i < wordLength; i++) {
-            if (currentWord[i] === guessLetter) {
-                hasLetter = true;
-                $('#results-letter-' + i).text(function (index, text) {
-                    return text.replace('_', guessLetter)
-                });
+        console.log(currentNumber);
+        // compare guess to current number.
+        if (guess > currentNumber) {
+            narrator('went a bit overboard, didn\'t we?', 'try smaller')
+            if(life === 2) {
+                narrator('too big. this is your last try', 'make it count')
             }
+        } else if (guess < currentNumber) {
+            narrator('too small, too small.. i can\'t even see this small', 'go big or go home')
+            if(life === 2) {
+                narrator('nope, too small. this is your last try', 'make it count')
+            }
+        } else if (guess === currentNumber) {
+            narrator('damn, you got it right', 'best 2 out of 3? let\'s go');
+            window.setTimeout(function(){
+                window.clearTimeout();
+                location.reload();
+            },2500)
         }
 
-        // we didnt find the corresponding letter from our word, so we will lose a life.
+        // the guessed number didnt equal our currentNumber, so we will lose a life.
 
-        if (!hasLetter){
+        if (!hasGuessed){
             if(life > 1){
                 life = life - 1;
                 fullLife.first().removeClass('life--full');
                 //display wasted letters at the bottom of the page.
-                garbageLetters.push(guessLetter);
-                $('.fields__garbage').append(garbageLetters);
+                garbageGuesses.push(guess);
+                $('.fields__garbage').append(garbageGuesses, ', ');
             } else {
+                console.log('dead');
                 fullLife.first().removeClass('life--full');
                 //display wasted letters at the bottom of the page.
-                garbageLetters.push(guessLetter);
-                $('.fields__garbage').append(garbageLetters);
+                garbageGuesses.push(guess);
+                $('.fields__garbage').append(garbageGuesses, '');
+                //tell the player they lost
+                narrator('i win,','but i\'m willing to give you another chance');
                 window.setTimeout(function(){
                     //clear the timeout we set
                     window.clearTimeout()
-                    //alet the player of loss
-                    alert('no win this time');
                     //reload the window after alert has been closed.
                     location.reload();
-                }, 500)
+                }, 2500)
             }
-        }
-
-        //display victory alert if player has guessed the word.
-
-        const guessedLetters = $('.fields__results-letter');
-
-        if(guessedLetters.text() === currentWord) {
-            window.setTimeout(function(){
-                window.clearTimeout();
-                alert('you did it, lets play again')
-                location.reload();
-            }, 800)
         }
 
     });
