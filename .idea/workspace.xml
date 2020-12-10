@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7224da8-c1fb-4030-ba64-417b0f4c139e" name="Default Changelist" comment="Number guessing game / removed a console log, edited comments" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="variation/word-length" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1lPi5hh6z5WzMEBP2nHvw5QfSsk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Praktika2020/Fusebox/fusebox" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7224da8-c1fb-4030-ba64-417b0f4c139e" name="Default Changelist" comment="" />
+      <created>1607504946002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607504946002</updated>
+      <workItem from="1607504947045" duration="15661000" />
+      <workItem from="1607594418451" duration="7095000" />
+    </task>
+    <task id="LOCAL-00001" summary="Algorythm init.&#10;&#10;Word game algorythm">
+      <created>1607594579939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607594579939</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Number guessing game algorythm">
+      <created>1607599169928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607599169928</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Number guessing game / removed a console log, edited comments">
+      <created>1607599601015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607599601015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Algorythm init.&#10;&#10;Word game algorythm" />
+    <MESSAGE value="Number guessing game algorythm" />
+    <MESSAGE value="Number guessing game / removed a console log, edited comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number guessing game / removed a console log, edited comments" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="512" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607610874977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="512" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1607610874977" />
+    <state x="528" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607611325282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="528" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1607611325282" />
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1607599600269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607599600269" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1607611465043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607611465043" />
+    <state x="438" y="190" key="EditFileWatcherDialog" timestamp="1607534305144">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="438" y="190" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1607534305144" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607543574480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607543574480" />
+    <state x="147" y="64" key="MergeDialog" timestamp="1607610884879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1607610884879" />
+    <state x="599" y="114" key="RollbackChangesDialog" timestamp="1607611167712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607611167712" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607599602786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607599602786" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1607611465043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1607611465043" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607594457788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607594457788" />
+    <state x="557" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1607610855440">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="557" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1607610855440" />
+    <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607594449821">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607594449821" />
+    <state x="531" y="201" key="git4idea.ui.GitUnstashDialog" timestamp="1607611432890">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="531" y="201" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1607611432890" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1607543218720">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1607543218720" />
+  </component>
+</project>

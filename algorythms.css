@@ -1,0 +1,75 @@
+* {
+  font-family: 'Poppins', sans-serif; }
+
+.h2 {
+  font-size: 32px; }
+
+.h4 {
+  font-size: 21px;
+  font-weight: 300; }
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: 3vh; }
+
+.fields__character-input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: auto;
+  padding: 8px 15px;
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 21px; }
+
+.fields__submit {
+  width: auto;
+  background: #000;
+  color: #e0e0e0;
+  font-weight: 300;
+  font-size: 21px;
+  padding: 8px 15px;
+  margin-top: 30px;
+  border-radius: 3px;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out; }
+  .fields__submit:hover {
+    background: #e0e0e0;
+    color: #2b2b2d;
+    cursor: pointer; }
+
+.fields__lives {
+  margin-top: 1vh; }
+
+.fields__life {
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 9999px;
+  width: 30px;
+  height: 30px;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out; }
+  .fields__life + .fields__life {
+    margin-left: 5px; }
+
+.life--full {
+  background-color: #000; }
+
+.fields__results {
+  font-size: 21px;
+  margin-top: 3vh; }
+
+.fields__results-letter + .fields__results-letter {
+  margin-left: 5px; }
+
+.fields__garbage {
+  margin-top: 3vh;
+  color: #ae3535; }
+
+/*# sourceMappingURL=algorythms.css.map */

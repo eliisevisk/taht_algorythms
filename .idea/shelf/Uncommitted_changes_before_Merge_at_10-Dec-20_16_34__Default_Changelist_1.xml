@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Merge_at_10-Dec-20_16_34_[Default_Changelist]1" date="1607610894310" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10-Dec-20_16_34_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Merge at 10-Dec-20 16:34 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="node_modules/scss/examples/.sass-cache/fde1591a2407d9320ef40d99ec712c5349978ec8/blog.scssc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10-Dec-20_16_34_[Default_Changelist]1/blog.scssc" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="node_modules/scss/examples/.sass-cache/fde1591a2407d9320ef40d99ec712c5349978ec8/input.scssc" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_10-Dec-20_16_34_[Default_Changelist]1/input.scssc" />
+  </binary>
+</changelist>
