@@ -6,14 +6,22 @@
         <link media="all" rel="stylesheet" href="algorythms.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="algorythms.js"></script>
+        <script src="words.js"></script>
     </head>
         <body>
             <div class="fields">
                 <h2 class="h2 fields__heading">I will generate a word, you have the privilege of guessing it one letter at a time.</h2>
-                <h4 class="h4 fields__subheading">best of luck, you can fail thrice</h4>
+                <h4 class="h4 fields__subheading">best of luck, you have 10 tries</h4>
                 <input class="fields__letter-input" type="text" maxlength="1">
                 <button class="fields__submit">Make a guess</button>
                 <div class="fields__lives">
+                    <span class="fields__life life--full"></span>
+                    <span class="fields__life life--full"></span>
+                    <span class="fields__life life--full"></span>
+                    <span class="fields__life life--full"></span>
+                    <span class="fields__life life--full"></span>
+                    <span class="fields__life life--full"></span>
+                    <span class="fields__life life--full"></span>
                     <span class="fields__life life--full"></span>
                     <span class="fields__life life--full"></span>
                     <span class="fields__life life--full"></span>

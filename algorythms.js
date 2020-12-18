@@ -3,15 +3,11 @@
 $(document).ready(function(){
     // define starting lives
 
-    let life = 3;
+    let life = 10;
 
     // define the element holding our results (the word we're looking for and the blanks replacing unrevealed words)
 
     const results = $('.fields__results');
-
-    // our array of words
-
-    const words = ['pineapple', 'inequity', 'breadsticks', 'juxtaposition', 'enervated']
 
     // function to generate an integer between 0 and max-1
 
@@ -21,11 +17,12 @@ $(document).ready(function(){
 
     // get current word from our array of 5 words (which is why max = 5 in this fnc).
 
-    const currentWord = words[getRandomInt(5)];
+    const currentWord = words[getRandomInt(10001)];
 
     // for each letter in the word, we create a blank
+    console.log(currentWord);
 
-    for (i = 0; i < currentWord.length; i++) {
+    for (let i = 0; i < currentWord.length; i++) {
         results.append('<span class="fields__results-letter" id="results-letter-' + i + '">_</span>')
     }
 
@@ -45,7 +42,7 @@ $(document).ready(function(){
         input.val('');
 
         // loop through letters of the word to find all matching letters
-        for (i = 0; i < wordLength; i++) {
+        for (let i = 0; i < wordLength; i++) {
             if (currentWord[i] === guessLetter) {
                 hasLetter = true;
                 $('#results-letter-' + i).text(function (index, text) {
