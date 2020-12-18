@@ -20,7 +20,6 @@ $(document).ready(function(){
     const currentWord = words[getRandomInt(10001)];
 
     // for each letter in the word, we create a blank
-    console.log(currentWord);
 
     for (let i = 0; i < currentWord.length; i++) {
         results.append('<span class="fields__results-letter" id="results-letter-' + i + '">_</span>')
@@ -69,7 +68,7 @@ $(document).ready(function(){
                     //clear the timeout we set
                     window.clearTimeout()
                     //alet the player of loss
-                    alert('no win this time');
+                    alert('no win this time. The word was "'+ currentWord +'"');
                     //reload the window after alert has been closed.
                     location.reload();
                 }, 500)
